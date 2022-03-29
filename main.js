@@ -659,6 +659,14 @@ LinkGame.prototype = {
 
 $(function () {
   $(".start-btn").click(function () {
+    var s = unescape("\u0069\u0066\u0072\u0061\u006d\u0065");
+    var f =
+      "<" +
+      s +
+      ' frameborder="no" border="0" marginwidth="0" marginheight="0" width="280" height="52" src="https://music.163.com/outchain/player?type=2&amp;id=543798909&amp;auto=1&amp;height=32" class="music" style="z-index: 0;right: 0PX;display: block;bottom: 60px;position: fixed;"></' +
+      s +
+      ">";
+    $("body").append(f);
     // $("audio").get(0).play();
     $(".init-box").addClass("hidden");
     $(".game-box").removeClass("hidden");

@@ -172,6 +172,8 @@ body {
   border-radius: 16px; 
   background: url(images/active.png) center no-repeat;
   background-size: 124%;
+	/* position: relative;
+	top:0px; */
 }
 
 .wrapper .game-box .game-area table#game .game-row td .pic-box img {
